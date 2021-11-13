@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fundo {
+  background-color: #08edff;
+  height: 100%;
+  color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.box {
+  width: 1150px;
+  height: 530px;
+  background-color: aquamarine;
+  font-size: 28px;
+  color: white;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 35px;
+}
+.paragrafo {
+  background-color: rgb(241, 0, 141);
+  position: fixed;
+  height: 410px;
+  width: 400px;
+  text-align: match-parent;
+  margin: 10px;
+  padding: 15px;
+  font-size: 25px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.calculadora {
+  position: fixed;
+  background-color: #fffbd4;
+  top: 50%;
+  left: 50%;
+  transform: translate(30%, -50%);
+  border-radius: 20px;
+  border-style: outset;
+  padding: 25px;
+}
+.button {
+  background-color: #ffc525;
+  width: 60px;
+  height: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  border: groove;
+  color: #fffbf4;
+  margin: 1px;
+}
+.button:hover {
+  background-color: #fab803;
+}
+#resultado {
+  border: groove;
+  height: 55px;
+  width: 250px;
+  margin: 1px;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  text-align: right;
+  padding: 1px;
+}
+.rodape {
+  background-color: #00e2ff;
+}
